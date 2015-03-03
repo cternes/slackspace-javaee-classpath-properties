@@ -7,3 +7,5 @@ You have to deploy the war-file manually. You can generate the war-file by typin
 	mvn clean compile package
 
 Now you will find the war-file in the target directory of the project. 
+
+Drop it into your favorite Java EE compliant application server and you're ready to test it.
