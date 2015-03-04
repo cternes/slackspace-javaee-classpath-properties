@@ -9,3 +9,14 @@ You have to deploy the war-file manually. You can generate the war-file by typin
 Now you will find the war-file in the target directory of the project. 
 
 Drop it into your favorite Java EE compliant application server and you're ready to test it.
+
+While deploying the application you should see some log messages in the log file of your application server:
+
+	==Starting application==
+	Found configuration config.properties:
+	Key: serverIp value: 192.168.0.1
+	Key: serverName value: JEE Sample
+	Found configuration other.properties:
+	Key: A value: 123456
+	Key: C value: 456789
+	Key: B value: 789123
