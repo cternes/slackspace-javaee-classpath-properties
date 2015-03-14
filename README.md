@@ -20,3 +20,5 @@ While deploying the application you should see some log messages in the log file
 	Key: A value: 123456
 	Key: C value: 456789
 	Key: B value: 789123
+
+You can also access a basic servlet which will print out the properties of _config.properties_ file at [http://localhost:8080/javaee-classpath-properties/](http://localhost:8080/javaee-classpath-properties/)
